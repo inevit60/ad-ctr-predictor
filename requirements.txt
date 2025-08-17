@@ -11,7 +11,8 @@ matplotlib
 xgboost
 lightgbm
 catboost
-tensorflow
+
+
 
 
 
