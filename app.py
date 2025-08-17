@@ -17,7 +17,7 @@ except ImportError:
     LANGCHAIN_AVAILABLE = False
 
 # --- API KEY CONFIGURATION ---
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyB8AN8PFVFDHhcZ3_Nvx8kOFBFGsA-IWqc")
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # --- CONFIGURATION ---
 MODEL_PATH = "GradientBoosting_champion.pkl"
@@ -697,4 +697,5 @@ if submitted:
     except Exception as e:
         st.error(f"❌ **System Error:** {str(e)}")
         st.info("Please try again or contact support if the issue persists.")
+
 
