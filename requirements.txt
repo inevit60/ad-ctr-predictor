@@ -1,8 +1,8 @@
 joblib==1.4.2
 langchain==0.3.7
-langchain_google_genai==0.0.12
+langchain-google-genai==1.0.9   # latest stable (works with Streamlit Cloud)
 seaborn==0.13.2
-pycountry_convert==0.7.2
+pycountry-convert==0.7.2
 pandas==2.2.3
 numpy==1.26.4
 scikit-learn==1.5.1
