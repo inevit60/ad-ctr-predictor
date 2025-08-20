@@ -1,6 +1,4 @@
 joblib==1.4.2
-langchain==0.3.7
-langchain-google-genai==1.0.9
 seaborn==0.13.2
 pycountry-convert==0.7.2
 pandas==2.2.3
@@ -9,3 +7,6 @@ scikit-learn==1.5.1
 scipy==1.13.1
 matplotlib==3.9.2
 streamlit==1.39.0
+langchain==0.2.16
+langchain-google-genai==1.0.9
+
